@@ -37,12 +37,12 @@ this.snake = this.snake || {};
         if (isNaN(parseInt(aX, 10)) || isNaN(parseInt(aY, 10))) {
             throw new Error(snake.Errors().getWrongArgsMessage());
         }
-        this.fields.setX(aX);
-        this.fields.setY(aY);
+        this.fields().setX(aX);
+        this.fields().setY(aY);
     };
 
     p.getNormal = function () {
-        return new Vector2D(this.fields.getX(), (-1) * this.fields.getY());
+        return new Vector2D(this.fields().getX(), (-1) * this.fields().getY());
     };
 
     p.substract = function (rightVector2D) {

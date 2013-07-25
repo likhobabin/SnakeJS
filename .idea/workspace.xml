@@ -16,6 +16,7 @@
     <file path="/Shape2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374763124324" ignored="false" />
     <file path="/Vector2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374762117979" ignored="false" />
     <file path="/OrthogonalProjection.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374763288008" ignored="false" />
+    <file path="/Rectangle2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374764088372" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <file leaf-file-name="Cell.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Cell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="104" selection-start="667" selection-end="667" vertical-scroll-proportion="-1.8">
+            <state line="21" column="104" selection-start="667" selection-end="667" vertical-scroll-proportion="-1.02">
               <folding />
             </state>
           </provider>
@@ -97,16 +98,16 @@
       <file leaf-file-name="Vector2D.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Vector2D.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="67" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+            <state line="40" column="21" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrthogonalProjection.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OrthogonalProjection.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.6144928">
+            <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,16 +116,16 @@
       <file leaf-file-name="Rectangle2D.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Rectangle2D.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shape2D.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Shape2D.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Shape2D.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="4" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
+            <state line="45" column="4" selection-start="1469" selection-end="1469" vertical-scroll-proportion="1.4434782">
               <folding />
             </state>
           </provider>
@@ -184,9 +185,10 @@
         <option value="$PROJECT_DIR$/src/js/snake/Rectangle.js" />
         <option value="$PROJECT_DIR$/src/js/snake/Errors.js" />
         <option value="$PROJECT_DIR$/src/js/snake/Cell.js" />
-        <option value="$PROJECT_DIR$/src/js/snake/Vector2D.js" />
         <option value="$PROJECT_DIR$/src/js/snake/Shape2D.js" />
         <option value="$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js" />
+        <option value="$PROJECT_DIR$/src/js/snake/Rectangle2D.js" />
+        <option value="$PROJECT_DIR$/src/js/snake/Vector2D.js" />
       </list>
     </option>
   </component>
@@ -562,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/snake/Cell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="104" selection-start="667" selection-end="667" vertical-scroll-proportion="-1.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/Errors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
@@ -578,28 +573,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/Rectangle2D.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/snake/Shape2D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="4" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/snake/Vector2D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="67" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.6144928">
+        <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Cell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="104" selection-start="667" selection-end="667" vertical-scroll-proportion="-1.02">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Vector2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Shape2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="4" selection-start="1469" selection-end="1469" vertical-scroll-proportion="1.4434782">
           <folding />
         </state>
       </provider>

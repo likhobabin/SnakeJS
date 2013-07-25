@@ -6,7 +6,7 @@ this.snake = this.snake || {};
     };
     var p = Rectangle2D.prototype;
 
-    p.states = function () {
+    p.fields = function () {
         var color;
         var h;
         var w;
@@ -39,11 +39,7 @@ this.snake = this.snake || {};
     };
 
     p.initialize = function (aColor, aH, aW, aX, aY) {
-        p.states.set(aColor, aH, aW, aX, aY);
-    };
-
-    p.getStates = function () {
-        return p.states;
+        p.fields().set(aColor, aH, aW, aX, aY);
     };
 
     this.snake.Rectangle2D = Rectangle2D;
