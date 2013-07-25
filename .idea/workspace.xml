@@ -94,19 +94,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vector2D.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Vector2D.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Vector2D.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="67" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.5072464">
+            <state line="67" column="67" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrthogonalProjection.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OrthogonalProjection.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="49" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+            <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.6144928">
               <folding />
             </state>
           </provider>
@@ -576,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/Rectangle2D.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
@@ -599,7 +592,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/Vector2D.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="67" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.5072464">
+        <state line="67" column="67" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.6144928">
           <folding />
         </state>
       </provider>
