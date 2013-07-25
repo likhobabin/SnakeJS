@@ -20,16 +20,16 @@ this.snake = snake || {};
         if (!(aRectangle2D instanceof snake.Rectangle2D)) {
             throw new Error(snake.Errors().getWrongVariableType());
         }
-        this.getVertexes()[0] = new snake.Vector2D(aRectangle2D.fields().getX(),
+        this.fileds().getVertexes()[0] = new snake.Vector2D(aRectangle2D.fields().getX(),
             aRectangle2D.fields().getY());
 
-        this.getVertexes()[1] = new snake.Vector2D(aRectangle2D.fields().getX(),
+        this.fileds().getVertexes()[1] = new snake.Vector2D(aRectangle2D.fields().getX(),
             aRectangle2D.fields().getY() + h);
 
-        this.getVertexes()[2] = new snake.Vector2D(aRectangle2D.fields().getX() + w,
+        this.fileds().getVertexes()[2] = new snake.Vector2D(aRectangle2D.fields().getX() + w,
             aRectangle2D.fields().getY() + h);
 
-        this.getVertexes()[3] = new snake.Vector2D(aRectangle2D.fields().getX() + w,
+        this.fileds().getVertexes()[3] = new snake.Vector2D(aRectangle2D.fields().getX() + w,
             aRectangle2D.fields().getY());
     };
 
