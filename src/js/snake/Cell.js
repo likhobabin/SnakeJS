@@ -1,15 +1,15 @@
-this.snake = this.snake || {};
+snake = snake || {};
 
 (function () {
-    var Cell = function () {
+    function Cell() {
         var velocity;
         var rect;
         return {
             initialize: function (aColor, aH, aW, aX, aY, aVelocity) {
                 rect = new Rectangle2D(aColor, aH, aW, aX, aY);
                 // TODO: check type of the velocityVector
-                if (!(aVelocity instanceof snake.Vector2D)) {
-                    throw new Error(snake.Errors().getWrongVariableType());
+                if (!(snake.utils.isTypeOf(aVelocity, snake.Vector2D))) {
+                    throw new Error(snake.errors.wrongVariableTypeMsg);
                 }
                 velocity = aVelocity;
             },
@@ -28,8 +28,12 @@ this.snake = this.snake || {};
 
             getVelocity: function () {
                 return velocity;
-            }
+            },
+
+	        getRectaingle: function() {
+		        return rect;
+	        }
         };
     };
-    this.snake.Cell = Cell;
+    snake.Cell = Cell;
 }());

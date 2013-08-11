@@ -6,17 +6,26 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374584801851" ignored="false" />
     <file path="/a.dummy" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374592944185" ignored="false" />
-    <file path="/Cell.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374761127589" ignored="false" />
+    <file path="/Cell.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376251994953" ignored="false" />
     <file path="/Property.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374591724786" ignored="false" />
-    <file path="/Errors.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374760940581" ignored="false" />
+    <file path="/Errors.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376162956650" ignored="false" />
     <file path="/.gitignore" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374737706170" ignored="false" />
     <file path="/Geom.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374759541999" ignored="false" />
     <file path="/Geom2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374758263690" ignored="false" />
     <file path="/Rectangle.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374759877400" ignored="false" />
-    <file path="/Shape2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374764347837" ignored="false" />
-    <file path="/Vector2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374762117979" ignored="false" />
-    <file path="/OrthogonalProjection.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374763288008" ignored="false" />
-    <file path="/Rectangle2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1374764088372" ignored="false" />
+    <file path="/Shape2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376252127491" ignored="false" />
+    <file path="/Vector2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376163373034" ignored="false" />
+    <file path="/OrthogonalProjection.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376252081892" ignored="false" />
+    <file path="/Rectangle2D.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376163605032" ignored="false" />
+    <file path="/a.java" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376252375500" ignored="false" />
+    <file path="/a.groovy" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240958042" ignored="false" />
+    <file path="/a.html" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240922666" ignored="false" />
+    <file path="/a.xml" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240952777" ignored="false" />
+    <file path="/Utils.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376252305293" ignored="false" />
+    <file path="/a.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240915632" ignored="false" />
+    <file path="/a.jspx" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240926349" ignored="false" />
+    <file path="/a.sql" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240949073" ignored="false" />
+    <file path="/a.css" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376252368379" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +40,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -68,6 +76,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -80,7 +89,7 @@
       <file leaf-file-name="Cell.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Cell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="104" selection-start="667" selection-end="667" vertical-scroll-proportion="-1.02">
+            <state line="10" column="74" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +98,16 @@
       <file leaf-file-name="Errors.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Errors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="6" column="8" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/snake/Utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="57" selection-start="2242" selection-end="2242" vertical-scroll-proportion="2.0139372">
               <folding />
             </state>
           </provider>
@@ -98,7 +116,7 @@
       <file leaf-file-name="Vector2D.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Vector2D.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="21" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+            <state line="46" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +125,7 @@
       <file leaf-file-name="OrthogonalProjection.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+            <state line="49" column="13" selection-start="1132" selection-end="1152" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,16 +134,34 @@
       <file leaf-file-name="Rectangle2D.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Rectangle2D.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+            <state line="8" column="6" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shape2D.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Shape2D.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Shape2D.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="27" column="67" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="77" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix2D.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/EaselJS/src/easeljs/geom/Matrix2D.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="153" column="6" selection-start="4743" selection-end="4743" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,33 +171,6 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/geom/Point.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="19" selection-start="2206" selection-end="2206" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matrix2D.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/geom/Matrix2D.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graphics.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/display/Graphics.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1371" column="6" selection-start="52727" selection-end="52727" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,18 +186,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/html/index.html" />
         <option value="$PROJECT_DIR$/src/js/snake/Property.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/js/snake/Geom.js" />
         <option value="$PROJECT_DIR$/src/js/snake/Geom2D.js" />
         <option value="$PROJECT_DIR$/src/js/snake/Rectangle.js" />
+        <option value="$PROJECT_DIR$/src/html/index.html" />
         <option value="$PROJECT_DIR$/src/js/snake/Errors.js" />
+        <option value="$PROJECT_DIR$/src/js/snake/Vector2D.js" />
+        <option value="$PROJECT_DIR$/src/js/snake/Rectangle2D.js" />
         <option value="$PROJECT_DIR$/src/js/snake/Cell.js" />
         <option value="$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js" />
-        <option value="$PROJECT_DIR$/src/js/snake/Rectangle2D.js" />
-        <option value="$PROJECT_DIR$/src/js/snake/Vector2D.js" />
         <option value="$PROJECT_DIR$/src/js/snake/Shape2D.js" />
+        <option value="$PROJECT_DIR$/src/js/snake/Utils.js" />
       </list>
     </option>
   </component>
@@ -196,10 +206,125 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>IntelliJ IDEA Platform Inspections</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructs</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -241,7 +366,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="snake" />
+              <option name="myItemId" value="SnakeJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,7 +376,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="snake" />
+              <option name="myItemId" value="SnakeJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -273,7 +398,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="snake" />
+              <option name="myItemId" value="SnakeJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -284,10 +409,6 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EaselJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -295,7 +416,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="snake" />
+              <option name="myItemId" value="SnakeJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -304,20 +425,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snake" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snake" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,11 +437,15 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager">
@@ -409,14 +520,38 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" name="Default" comment="" />
+      <created>1375214494830</created>
+      <updated>1375214494830</updated>
+    </task>
+    <servers />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -428,10 +563,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2621212" sideWeight="0.7495741" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318182" sideWeight="0.6700855" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25816733" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -498,96 +634,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/display/Shape.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="45" selection-start="1427" selection-end="1428" vertical-scroll-proportion="4.24" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/examples/AlphaMaskReveal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="86" selection-start="3459" selection-end="3459" vertical-scroll-proportion="-36.384617" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/geom/Rectangle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="8" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/events/MouseEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="74" selection-start="8125" selection-end="8125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/events/EventDispatcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="0" selection-start="9352" selection-end="9352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/events/Event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/geom/Matrix2D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/display/Graphics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1371" column="6" selection-start="52727" selection-end="52727" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/EaselJS/src/easeljs/geom/Point.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="19" selection-start="2206" selection-end="2206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/Errors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/snake/Rectangle2D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/snake/Cell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="104" selection-start="667" selection-end="667" vertical-scroll-proportion="-1.02">
           <folding />
         </state>
       </provider>
@@ -599,9 +648,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Rectangle2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/Shape2D.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/EaselJS/src/easeljs/geom/Matrix2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="6" selection-start="4743" selection-end="4743" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="77" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Errors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Vector2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Cell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="74" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/OrthogonalProjection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="13" selection-start="1132" selection-end="1152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Rectangle2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Shape2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="67" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/snake/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="57" selection-start="2242" selection-end="2242" vertical-scroll-proportion="2.0139372">
           <folding />
         </state>
       </provider>

@@ -1,19 +1,11 @@
-this.snake = this.snake || {};
+snake = snake || {};
+snake.errors = snake.errors || {};
 
 (function () {
-    var Errors = function () {
-        var wrongArguments = "Error: wrong arguments";
-        var wrongVariableType = "Error: var has a wrong type";
-        return {
-            getWrongArgsMessage: function () {
-                return wrongArguments;
-            },
-
-            getWrongVariableType: function () {
-                return wrongVariableType;
-            }
-        }
-    };
-    this.snake.Errors = Errors;
+    snake.errors = {
+        wrongArgumentsMsg : "Error: wrong arguments",
+        wrongVariableTypeMsg : "Error: var has a wrong type",
+        wrongObjectStateMsg : "Error: wrong object state"
+    }
 }());
 

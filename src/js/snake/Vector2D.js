@@ -1,13 +1,14 @@
 this.snake = this.snake || {};
 
 (function () {
-    var Vector2D = function (aX, aY) {
+
+    function Vector2D(aX, aY) {
         this.initialize(aX, aY);
     };
 
     var p = Vector2D.prototype;
 
-    p.fields = function () {
+    p.defaultState = function () {
         var x;
         var y;
         return {
@@ -16,7 +17,7 @@ this.snake = this.snake || {};
             },
             setX: function (aX) {
                 if (isNaN(aX, 10)) {
-                    throw new Error(snake.Errors().getWrongArgsMessage());
+                    throw new Error(snake.errors.getWrongArgsMessage());
                 }
                 x = aX;
             },
@@ -33,12 +34,15 @@ this.snake = this.snake || {};
         }
     };
 
+    p.state = null;
+
     p.initialize = function (aX, aY) {
         if (isNaN(parseInt(aX, 10)) || isNaN(parseInt(aY, 10))) {
             throw new Error(snake.Errors().getWrongArgsMessage());
         }
-        this.fields().setX(aX);
-        this.fields().setY(aY);
+        this.state = this.defaultState();
+        this.state.setX(aX);
+        this.state.setY(aY);
     };
 
     p.getNormal = function () {
@@ -49,8 +53,8 @@ this.snake = this.snake || {};
         if (rightVector2D == (null || undefined) || !(rightVector2D instanceof snake.Vector2D)) {
             throw new Error(snake.Errors().getWrongVariableType());
         }
-        var rightX = rightVector2D.fields().getX();
-        var rightY = rightVector2D.fields().getY();
+        var rightX = rightVector2D.defaultState().getX();
+        var rightY = rightVector2D.defaultState().getY();
         var leftX = this.fields().getX();
         var leftY = this.fields().getY();
         return new Vector2D(leftX - rightX, leftY - rightY);
@@ -60,8 +64,8 @@ this.snake = this.snake || {};
         if (rightVector2D == (null || undefined) || !(rightVector2D instanceof snake.Vector2D)) {
             throw new Error(snake.Errors().getWrongVariableType());
         }
-        var rightX = rightVector2D.fields().getX();
-        var rightY = rightVector2D.fields().getY();
+        var rightX = rightVector2D.defaultState().getX();
+        var rightY = rightVector2D.defaultState().getY();
         var leftX = this.fields().getX();
         var leftY = this.fields().getY();
         return leftX * rightX + leftY * leftX;

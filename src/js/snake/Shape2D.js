@@ -1,48 +1,51 @@
-this.snake = snake || {};
+snake = snake || {};
 
 (function () {
-    var Shape = function (aRectangle2D) {
+    function Shape(aRectangle2D) {
         this.initialize(aRectangle2D);
     };
 
     var p = Shape.prototype;
 
-    p.fields = function () {
+    p.defaultState = function () {
         var vertexes = [];
         return {
             getVertexes: function () {
                 return vertexes;
+            },
+            setVertexes : function (aVertexes) {
+                if ( !snake.utils.isTypeOf(aVertexes, Array)) {
+                    throw new Error(snake.errors.wrongVariableTypeMsg);
+                }
+                vertexes = aVertexes;
             }
         };
     };
 
+    p.state = null;
+
     p.initialize = function (aRectangle2D) {
-        if (!(aRectangle2D instanceof snake.Rectangle2D)) {
+        if (!snake.utils.isTypeOf(aRectangle2D, snake.Rectangle2D)) {
             throw new Error(snake.Errors().getWrongVariableType());
         }
-        this.fileds().getVertexes()[0] = new snake.Vector2D(aRectangle2D.fields().getX(),
-            aRectangle2D.fields().getY());
+        var vertexes = [];
+        vertexes[0] = new snake.Vector2D(aRectangle2D.defaultState().getX(),
+            aRectangle2D.defaultState().getY());
 
-        this.fileds().getVertexes()[1] = new snake.Vector2D(aRectangle2D.fields().getX(),
-            aRectangle2D.fields().getY() + h);
+        vertexes[1] = new snake.Vector2D(aRectangle2D.defaultState().getX(),
+            aRectangle2D.defaultState().getY() + h);
 
-        this.fileds().getVertexes()[2] = new snake.Vector2D(aRectangle2D.fields().getX() + w,
-            aRectangle2D.fields().getY() + h);
+        vertexes[2] = new snake.Vector2D(aRectangle2D.defaultState().getX() + w,
+            aRectangle2D.defaultState().getY() + h);
 
-        this.fileds().getVertexes()[3] = new snake.Vector2D(aRectangle2D.fields().getX() + w,
-            aRectangle2D.fields().getY());
+        vertexes[3] = new snake.Vector2D(aRectangle2D.defaultState().getX() + w,
+            aRectangle2D.defaultState().getY());
+
+        this.state = this.defaultState();
+        this.state.setVertexes(vertexes);
+
+        return this;
     };
 
-    p.getAxes = function () {
-        var axes = [];
-        var vertexes = this.fields().getVertexes();
-        for (var i = 0; vertexes.length > i; i++) {
-            var currVertex = vertexes[i];
-            var nextVertex = (i + 1 == vertexes.length) ? vertexes[0] : vertexes[i + 1];
-            var substractVector = currVertex.substract(nextVertex);
-            axes[i] = substractVector.getNormal();
-        }
-    };
-
-    this.snake.Shape = Shape;
+    snake.Shape = Shape;
 }());

@@ -1,12 +1,12 @@
-this.snake = this.snake || {};
+snake = snake || {};
 
 (function () {
-    var Rectangle2D = function (aColor, aH, aW, aX, aY) {
+    function Rectangle2D(aColor, aH, aW, aX, aY) {
         this.initialize(aColor, aH, aW, aX, aY);
     };
     var p = Rectangle2D.prototype;
 
-    p.fields = function () {
+    p.defaultState = function () {
         var color;
         var h;
         var w;
@@ -38,9 +38,12 @@ this.snake = this.snake || {};
         }
     };
 
+    p.state = null;
+
     p.initialize = function (aColor, aH, aW, aX, aY) {
-        p.fields().set(aColor, aH, aW, aX, aY);
+        this.state = this.defaultState();
+        this.state.set(aColor, aH, aW, aX, aY);
     };
 
-    this.snake.Rectangle2D = Rectangle2D;
+    snake.Rectangle2D = Rectangle2D;
 }());
