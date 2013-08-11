@@ -9,12 +9,12 @@ snake = {} || snake;
 snake.utils = {} || snake.utils;
 
 (function () {
-	function evaluateAxis(aShape) {
+	function evaluateShapeAxises(aShape) {
 		if (!snake.utils.isTypeOf(aShape, snake.Shape)) {
 			throw new Error(snake.errors.wrongVariableTypeMsg);
 		}
 		var axises = [];
-		var vertexes = this.defaultState().getVertexes();
+		var vertexes = this.state.getVertexes();
 		for (var i = 0; vertexes.length > i; i++) {
 			var currVertex = vertexes[i];
 			var nextVertex = (i + 1 == vertexes.length) ? vertexes[0] : vertexes[i + 1];
@@ -28,8 +28,8 @@ snake.utils = {} || snake.utils;
 		if (!isTypeOf(aFirstShape) || !isTypeOf(aSecShape)) {
 			throw new Error("snake.utils.isOverlap" + snake.errors.wrongVariableTypeMsg);
 		}
-		var firstAxises = evaluateAxis(aFirstShape);
-		var secAxises = evaluateAxis(aSecShape);
+		var firstAxises = evaluateShapeAxises(aFirstShape);
+		var secAxises = evaluateShapeAxises(aSecShape);
 		var aFirstProjection = new snake.OrthogonalProjection(aFirstShape);
 		var aSecProjection = new snake.OrthogonalProjection(aSecShape);
 		var i;
@@ -78,7 +78,7 @@ snake.utils = {} || snake.utils;
 		return checkObject instanceof aConstructor;
 	};
 
-	snake.utils.evaluateAxis = evaluateAxis;
+	snake.utils.evaluateAxis = evaluateShapeAxises;
 	snake.utils.shapesOverlap = shapesOverlap;
 	snake.utils.orthProjectionsOverlap = orthProjectionsOverlap;
 	snake.utils.isTypeOf = isTypeOf;

@@ -21,7 +21,7 @@
     <file path="/a.groovy" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240958042" ignored="false" />
     <file path="/a.html" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240922666" ignored="false" />
     <file path="/a.xml" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240952777" ignored="false" />
-    <file path="/Utils.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376252305293" ignored="false" />
+    <file path="/Utils.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376252745587" ignored="false" />
     <file path="/a.js" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240915632" ignored="false" />
     <file path="/a.jspx" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240926349" ignored="false" />
     <file path="/a.sql" changelist="28d0541f-cbe7-43fe-b636-9c8336e7a8ff" time="1376240949073" ignored="false" />
@@ -107,7 +107,7 @@
       <file leaf-file-name="Utils.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/snake/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="57" selection-start="2242" selection-end="2242" vertical-scroll-proportion="2.0139372">
+            <state line="16" column="64" selection-start="435" selection-end="435" vertical-scroll-proportion="-1.0365853">
               <folding />
             </state>
           </provider>
@@ -547,7 +547,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -563,7 +563,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2621212" sideWeight="0.7495741" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25816733" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25816733" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/snake/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="57" selection-start="2242" selection-end="2242" vertical-scroll-proportion="2.0139372">
+        <state line="16" column="64" selection-start="435" selection-end="435" vertical-scroll-proportion="-1.0365853">
           <folding />
         </state>
       </provider>
