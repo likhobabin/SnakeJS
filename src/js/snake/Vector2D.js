@@ -1,4 +1,7 @@
-this.snake = this.snake || {};
+/**
+ * @author Ilya Rockitin ilya.rockitin@gmail.com
+ */
+snake = snake || {};
 
 (function () {
 
@@ -71,5 +74,5 @@ this.snake = this.snake || {};
         return leftX * rightX + leftY * leftX;
     };
 
-    this.snake.Vector2D = Vector2D;
+    snake.Vector2D = Vector2D;
 }());

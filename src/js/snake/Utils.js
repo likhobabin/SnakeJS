@@ -1,9 +1,5 @@
 /**
- * Created with IntelliJ IDEA.
- * User: ilya
- * Date: 8/10/13
- * Time: 10:33 PM
- * To change this template use File | Settings | File Templates.
+ * @author Ilya Rockitin ilya.rockitin@gmail.com
  */
 snake = {} || snake;
 snake.utils = {} || snake.utils;
@@ -78,7 +74,7 @@ snake.utils = {} || snake.utils;
 		return checkObject instanceof aConstructor;
 	};
 
-	snake.utils.evaluateAxis = evaluateShapeAxises;
+	snake.utils.evaluateAxises = evaluateShapeAxises;
 	snake.utils.shapesOverlap = shapesOverlap;
 	snake.utils.orthProjectionsOverlap = orthProjectionsOverlap;
 	snake.utils.isTypeOf = isTypeOf;

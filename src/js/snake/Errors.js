@@ -1,3 +1,6 @@
+/**
+ * @author Ilya Rockitin ilya.rockitin@gmail.com
+ */
 snake = snake || {};
 snake.errors = snake.errors || {};
 
